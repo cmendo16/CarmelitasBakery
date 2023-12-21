@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js" defer></script>
+</head>
+<body>
+
+    <div id="submissionModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Thank you!</h2>
+            <p>Thank you for your form submission. We will be in touch with you soon regarding your order!</p>
+        </div>
+    </div>
+
+    <header>
+      <img src="images/bakeryBrandLogo.png" alt="Carmelita's Bakery logo" class="logo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div class="container-content">   
+        <h2 class="center-text">Contact</h2>
+        <p class="adjust-text">Would you like to place an order or had any questions? Please feel free to contact us!</p>
+        
+
+        <form action="#" method="post" id="contactForm">
+        <div>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+        </div>
+        <div>
+            <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+        </div>
+
+        <div>   
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required><br><br>
+        </div>
+        
+        <div>
+            <textarea id="order" name="order" rows="4" cols="50" placeholder="Enter message..."></textarea><br><br>
+        </div>
+
+        <div class="btn">
+            <input type="submit" value="Submit">
+        </div>
+
+        </form>
+        <div id="formResponse"></div>
+
+        <h2 class="center-text">Location</h2>
+        <p>Carmelita's Bakery is a home-based bakery and not available for walk-ins</p>       
+        <br><br>
+        <address class="right-indent">
+            Email: <a href="mailto:CarmelitasBakery@gmail.com" class="contact-info">carmelita'sBakery@gmail.com</a ><br>
+            Phone: <a href="tel:+17043451384" class="contact-info">(704)345-1384</a><br>
+        </address>
+
+        <h2 class="center-text">FAQs</h2>
+
+        <div class="accordion">
+            <section>
+                <button class="accordion-label">How much notice do you need for a custome cake order?</button>
+                <div class="accordion-content" >
+                    <p>We request at least a week's notice for custome cakes to ensure we can craft something truly special for your occasion</p>
+                </div>
+            </section>
+          
+            <section>
+                <button class="accordion-label">Do you deliver?</button>
+            <div class="accordion-content">
+                <p>We do deliver within a 10-mile radius of our bakery. There's a small fee, which varies depending on the distance.</p>
+            </div>
+            </section>
+            
+            <section>
+                <button class="accordion-label">Can I pre-order items for pick-up?</button>
+                <div class="accordion-content">
+                    <p>Certainly! Give us a call or order through our website at least 24 hours in advance, and we'll have your goodies ready for you.</p>
+                </div>
+            </section>
+         </div>
+        </div>
+      </main>
+      <footer>
+            <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+        <p class= "font-sm">&copy;2023 Carmelita's Bakery. All rights reserved.</p>    
+    </footer>
+</body>
+</html>
